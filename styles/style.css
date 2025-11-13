@@ -321,12 +321,14 @@ footer {
 }
 .footer-menu-items {
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-.footer-menu-item {
+.footer-menu-link {
   color: var(--white-color);
   font-size: 1.25rem;
   font-weight: 500;
-  margin-bottom: 10px;
 }
 .social-media {
   display: flex;
